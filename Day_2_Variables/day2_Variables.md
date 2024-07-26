@@ -105,3 +105,11 @@ There are a few bult-in functions in Python.
     |  If no argument is given, the constructor creates a new empty list.
     |  The argument must be an iterable if specified.
     ```
+
+# Variables
+A variable refers to a memory address in which data is stored. <br>
+These are some rules for the name of variables:
+- A variable name must start with a letter or the underscore character _
+- A variable name cannot start with a number
+- A variable can only contain alpha-numeric characters and undescores (A-z, 0-9, and _ )
+- Variable names are case-sensitive (first_name, Firstname, FirstName, FIRSTNAME)
