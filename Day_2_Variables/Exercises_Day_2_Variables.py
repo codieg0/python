@@ -85,7 +85,7 @@ print(len(last_name))
 num_one = 5
 num_two = 4
 
-sum_nums = sum(num_one, num_two)
+sum_nums = sum(int((num_one, num_two)))
 sub_nums = num_two - num_one
 multiply_nums = num_one * num_two
 divide_nums = num_one / num_two
