@@ -54,6 +54,8 @@ Compare the slopes in tasks 8 and 9.
 #     print("Not possible to divide by 0.")
 # else:
 #     print(f'The slope value is {slope_is}')
+
+# I am not sure how to resolve this one with an if statement
 '''
 Find the length of 'python' and 'dragon' and make a falsy comparison statement.
 '''
