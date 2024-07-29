@@ -27,11 +27,11 @@
     ```py
         {
         'fist_name' : 'Diego',
-        'last_name' : 'Castro',
-        'country' : 'Peru',
-        'age' : 28,
+        'last_name' : 'C',
+        'country' : 'Ireland',
+        'age' : 60,
         'is_married' : True,
-        'location' : 'Ireland'
+        'location' : 'Localhost'
         'skills' : ['HTML', 'CSS', 'Linux']
         }
         ```
