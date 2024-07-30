@@ -9,3 +9,5 @@ Day 1 - **Data Types** click [***here***](https://github.com/codieg0/python/blob
 Day 2 - **Variables** click [***here***](https://github.com/codieg0/python/blob/main/Day_2_Variables/day_2_Variables.md)
 
 Day 3 - **Operators** click [***here***](https://github.com/codieg0/python/blob/main/Day_3_Operators/day_3_operators.md)
+
+Day 4 - **Strings** click [here](https://github.com/codieg0/python/blob/main/Day_4_Strings/)
