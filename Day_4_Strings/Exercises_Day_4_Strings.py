@@ -50,3 +50,21 @@ another_sentence[0]  = 'Python'
 print(another_sentence)
 
 # Change Python for Everyone to Python for All using the replace method or other methods.
+
+string = 'Python for Everyone'
+new_string = string.replace('Everyone', 'All')
+print(new_string)
+
+# Split the string 'Coding For All' using space as the separator (split()) .
+split_string = new_string.split()
+print(split_string)
+ 
+# "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+fang_list = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+
+# What is the character at index 0 in the string Coding For All.
+coding_string = 'Coding'
+print(coding_string[0])
+
+ # What character is at index 10 in "Coding For All" string.
+print(split_string[-1])
