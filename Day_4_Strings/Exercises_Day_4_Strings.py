@@ -68,3 +68,18 @@ print(coding_string[0])
 
  # What character is at index 10 in "Coding For All" string.
 print(split_string[-1])
+
+# Create an acronym or an abbreviation for the name 'Python For Everyone'.
+string_python = 'Python'
+string_for = 'For'
+string_everyone = 'Everyone'
+print(string_python[0])
+print(string_for[0])
+print(string_everyone[0])
+
+# Use index to determine the position of the first occurrence of C in Coding For All.
+string_coding = 'Coding'
+c_char = string_coding[0]
+print(c_char)
+
+# 
