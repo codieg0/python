@@ -78,8 +78,56 @@ print(string_for[0])
 print(string_everyone[0])
 
 # Use index to determine the position of the first occurrence of C in Coding For All.
-string_coding = 'Coding'
-c_char = string_coding[0]
-print(c_char)
+string_coding = 'Coding For All'
+print(string_coding.index('C'))
 
-# 
+# Use index to determine the position of the first occurrence of F in Coding For All.
+print(string_coding.index('F'))
+
+# Use rfind to determine the position of the last occurrence of l in Coding For All People.
+string_code_people = 'Coding For All People'
+print(string_code_people.rfind('l'))
+
+# Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+
+word_because = 'You cannot end a sentence with because because because is a conjunction'
+print(word_because.find('because'))
+print(word_because.index('because'))
+
+# Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print(word_because.rindex('because'))
+
+# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print(word_because[31:54])
+# print(word_because.index('h'))
+# print(word_because.index('is'))
+
+# Does ''Coding For All' start with a substring Coding?
+print(string_coding[0:6] == 'Coding')
+'''
+I was confusing with == and is
+
+The “is” keyword is used to compare the variables and string whether they are pointing to the same object or not. If both the variables (var1 and var2) refer to the same object, they will have the same ID. 
+
+The “==” operator will compare both the variables whether their values refer to the same object or not.
+'''
+
+# Does 'Coding For All' end with a substring coding?
+print(string_coding[-1] == 'g')
+
+# '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+str_coding_spaces = '   Coding For All      ' 
+print(str_coding_spaces)
+print(str_coding_spaces.strip(' '))
+
+# Which one of the following variables return True when we use the method isidentifier():
+st_one = '30DaysOfPython'
+st_two = 'thirty_days_of_python'
+
+print(st_one.isidentifier())
+print(st_two.isidentifier())
+
+# Use the new line escape sequence to separate the following sentences.
+
+ex_one = 'I am enjoying this challenge'
+ex_two= 'I just wonder what is next.'
